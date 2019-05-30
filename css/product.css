@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'PSCF';
+    
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    min-width: 1366px;
+}
+@font-face{
+    font-family: 'PSCF';
+    src: url(../font/PingFangRegular.otf);
+}
+body{
+    background: url(../images/bg.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.top-bar{
+    width: 1470px;
+    height: 65px;
+    margin: 0 auto;
+    padding-top: 23px;
+    position: relative;
+}
+.top-bar ul{
+   float: right;
+   margin-right: 200px;
+   list-style: none;
+}
+.top-bar ul li{
+   float: left;
+   width: 99px;
+   height: 43px;
+   margin-right: 91px;
+   text-align: center;
+   line-height: 43px;
+   font-size: 22px;
+   border-radius: 22px;
+   cursor: pointer;
+}
+.top-bar  ul li a{
+    color: white;
+    display: block;
+    width: 99px;
+    height: 43px;
+    border-radius: 22px;
+}
+.active{
+    background: white;
+    color: #1F1D76!important;
+}
+.top-bar ul li a:hover{
+    background: white;
+    color: #1F1D76!important;
+}
+span{
+    background: url(../images/login.png) no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 147px;
+    top: 30px;
+    vertical-align: middle;
+}
+
+.banner{
+    width: 100%;
+    height: 611px;
+    position: relative;
+    margin-top: 88px;
+}
+.banner-center{
+    width: 1046px;
+    margin: 0 auto;
+    height: 611px;
+}
+.banner-img{
+    width: 681px;
+    height: 486px;
+    float: left;
+}
+.banner-img img{
+    width: 681px;
+    height: 486px;
+    z-index: -9;
+}
+.desc{
+    width: 365px;
+    height: 611px;
+    float: left;
+}
+.desc h3{
+    font-size: 53px;
+    color: #1F1D76;
+    font-family: 'HYe4gj';
+    font-weight: 400;
+    margin-top: 124px;
+    margin-left: 138px;
+}
+
+.banner p{
+    font-size: 20px;
+    color: #1F1D76;
+    font-weight: 400;
+    margin-left: 144px;
+    margin-top: 17px;
+}
+.banner button,.pic-block button{
+    width: 172px;
+    height: 52px;
+    font-size: 16px;
+    color: white;
+    background: #6562D9;
+    border-radius: 26px;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 34px;
+}
+.choose{
+   text-align: center;
+   width: 100%;   
+}
+.choose h3{
+    font-size: 47px;
+    color: #173857;
+    font-weight: bold;
+}
+.choose p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #173857;
+}
+.center-block{
+    width: 100%;
+    height: 597px;
+    background: #F6F6FF;
+    margin-top: 35px;
+}
+.item{
+    width: 924px;
+    height: 597px;
+    margin: 0 auto;
+
+}
+.item-list{
+    width: 273px;
+    height: 597px;
+    float: left;
+    margin-left: 50px;
+  
+}
+.item-list h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #173857;
+    margin-left: 80px;
+    margin-bottom: 46px;
+}
+.item-list ul{
+    list-style-position: inside;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.bg1{
+    width: 100%;
+    height: 1881px;
+    background: url(../images/bg1.png);
+    background-size: 100% 1881px;
+}
+.bg2{
+    width: 100%;
+    height: 2051px;
+    background: url(../images/bg2.png);
+    background-size: 100% 2051px;
+}
+.pic{
+    width: 100%;
+    height: 463px;
+    background: #F6F6FF;
+}
+.pic-center{
+    width: 845px;
+    height: 463px;
+    margin: 0 auto;
+}
+.pic-block{
+    float: left;
+   
+}
+.pic-block h3{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 178px;
+  
+}
+.bottom{
+    width: 100%;
+    height: 322px;
+    background: #5C5F9C;
+    position: relative;
+}
+.bottom-bar{
+    width: 1113px;
+    height: 245px;
+    box-sizing: border-box;
+    padding-top: 47px;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+    margin: 0 auto;
+    text-align: center;
+}
+.bottom-bar::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.download{
+    float: left;
+    margin-right: 186px;
+}
+.download h2{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+.download p{
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.5;
+    color: white;
+    cursor: pointer;
+}
+.public{
+    width: 164px;
+    height: 147px;
+    background: #434343;
+}
+.address{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 10px;
+  bottom: 36px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+.bar{
+    height: 400px;
+    position: fixed;
+    right: 191px;
+    z-index: 100;
+    top: 65%;
+    
+}
+.bar ul{
+    list-style: none;
+}
+.bar ul li{
+    width: 85px;
+    height: 85px;
+    margin-bottom: 23px;
+}
+.phone{
+     background: url(../images/phone.png);
+}
+.wechat{
+    background: url(../images/wechat.png);
+}
+.top{
+    background: url(../images/top.png);
+}

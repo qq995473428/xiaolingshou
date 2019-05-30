@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'PSCF';
+    
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    min-width: 1366px;
+}
+@font-face{
+    font-family: 'PSCF';
+    src: url(../font/PingFangRegular.otf);
+}
+body{
+    background: url(../images/bg3.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.top-bar{
+    width: 1470px;
+    height: 65px;
+    margin: 0 auto;
+    padding-top: 23px;
+    position: relative;
+}
+.top-bar ul{
+   float: right;
+   margin-right: 200px;
+   list-style: none;
+}
+.top-bar ul li{
+   float: left;
+   width: 99px;
+   height: 43px;
+   margin-right: 91px;
+   text-align: center;
+   line-height: 43px;
+   font-size: 22px;
+   border-radius: 22px;
+   cursor: pointer;
+}
+.top-bar  ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    outline: none;
+    width: 99px;
+    height: 43px;
+    border-radius: 22px;
+}
+.active{
+    background: white;
+    color: #1F1D76!important;
+}
+.top-bar ul li a:hover{
+    background: white;
+    color: #1F1D76!important;
+}
+.top-bar span{
+    background: url(../images/login.png) no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 147px;
+    top: 30px;
+    vertical-align: middle;
+}
+.about{
+    width: 100%;
+    height: 533px;
+    background: url(../images/about.png);
+    background-size: 100% 100%;
+}
+.culture{
+    width: 100%;
+    height: 1362px;
+    position: relative;
+}
+.bar{
+    height: 400px;
+    position: fixed;
+    right: 191px;
+    z-index: 100;
+    top: 65%;
+
+    
+}
+.bar ul{
+    list-style: none;
+}
+.bar ul li{
+    width: 85px;
+    height: 85px;
+    margin-bottom: 23px;
+}
+.phone{
+     background: url(../images/phone.png);
+}
+.wechat{
+    background: url(../images/wechat.png);
+}
+.top{
+    background: url(../images/top.png);
+}
+.culture-center{
+    width: 1116px;
+    height: 1362px;
+    margin: 0 auto;
+}
+.culture-center h2{
+    display: inline-block;
+    font-size: 30px;
+    color: #3C5692;
+    font-weight: bold;
+    padding-top: 88px;
+}
+.culture-center span{
+    font-size: 30px;
+    font-weight: 400;
+    color: #707070;
+}
+.culture-img{
+    background: url(../images/culture.png) no-repeat;
+    width: 1200px;
+    height: 757px;
+    background-size: 1049px 676px;
+}
+.culture pre{
+    font-size: 24px;
+    line-height: 31px;
+    text-indent: 2em;
+    color: #626262;
+    width: 958px;
+}
+.boss{
+    width: 100%;
+    height: 600px;
+    background: url(../images/bg4.png);
+}
+.boss-center{
+    width: 1094px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+.connect{
+    
+    height: 600px;
+    box-sizing: border-box;
+    padding-top: 115px;
+}
+.connect p{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+.connect span{
+    display: block;
+    font-size: 21px;
+    color: white;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.zhiwei{
+   margin-left: 317px;
+   margin-top: 42px;
+}
+.p17{
+    width: 544px;
+    height: 258px;
+    background: url(../images/p17.png);
+}
+.bottom{
+    width: 100%;
+    height: 322px;
+    background: #5C5F9C;
+    position: relative;
+}
+.bottom-bar{
+    width: 1113px;
+    height: 245px;
+    box-sizing: border-box;
+    padding-top: 47px;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+    margin: 0 auto;
+    text-align: center;
+}
+.bottom-bar::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.download{
+    float: left;
+    margin-right: 186px;
+}
+.download h2{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+.download p{
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.5;
+    color: white;
+    cursor: pointer;
+}
+.public{
+    width: 164px;
+    height: 147px;
+    background: #434343;
+}
+.address{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 10px;
+  bottom: 36px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+.weixin{
+    position: absolute;
+    top: 200px;
+    right: 251px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.zhiwei-block{
+    display: flex;
+}
+.zhaoping{
+    width: 171px;
+    height: 112px;
+    margin-top: 30px;
+    border-right: 1px solid rgba(255,255,255,1);
+}
+.gangwei{
+    margin-top: 30px;
+    margin-left: 41px;
+}
+.gangwei a{
+    font-size: 21px;
+    color: white;
+    display: block;
+    
+}

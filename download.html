@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/download.css">
+    <script src="./js/jquery.min.js"></script>
+    <title>小灵兽下载</title>
+    <script>
+        $(function () {
+            var count=1;
+            $('.drop-top span').click(function () {
+                $('.downlist').slideToggle('fast');
+                count++;
+                if(count%2==0){
+                    $(this).removeClass('rotate1');
+                    $(this).addClass('rotate');
+                }else{
+                    $(this).removeClass('rotate');
+                    $(this).addClass('rotate1');
+                }
+                
+            })
+          
+           
+        });
+    </script>
+</head>
+
+<body>
+    <div class="login-mask">
+        <div class="login-box">
+            <div class="login-cancel">
+               X
+            </div>
+           <div class="login-text">
+                <h2>登陆</h2>
+           </div>
+           <div class="login-form">
+               <form action="">
+                   <label for="">用户名</label>
+                   <div class="input-box">
+                       <input type="text" placeholder="请输入您的收银账号">
+                   </div>
+                   <label for="">密码</label>
+                   <div class="input-box" style="margin-bottom:46px">
+                       <input type="text" placeholder="请输入您的密码">
+                   </div>
+                    <div class="login-btn">
+                        <button>登录</button>
+                    </div>
+                    
+                   
+               </form>
+           </div>
+        </div>
+    </div>
+    <div class="top-bar">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="product.html">产品</a></li>
+            <li><a href="download.html" class="active">下载</a></li>
+            <li><a href="about.html">关于我们</a></li>
+        </ul>
+        <span></span>
+    </div>
+    <div class="software">
+        <div class="bar">
+            <ul>
+                <li class="phone"></li>
+                <li class="wechat"></li>
+                <li class="top"></li>
+            </ul>
+        </div>
+        <div class="software-center">
+            <div class="drop-top">
+                <p>下载软件</p>
+                <div class="downlist">
+                    <div class="downlist-block">
+                        <h2>手机端下载</h2>
+                    </div>
+                    <div class="downlist-block">
+                        <h2>PC端下载</h2>
+                    </div>
+                    <div class="downlist-block">
+                        <h2>POS机下载</h2>
+                    </div>
+                    <div class="downlist-block" style="border:none">
+                        <h2>收银机系统下载</h2>
+                    </div>
+                </div>
+                <span class="rotate1"></span>
+            </div>
+            <div class="drop-down">
+                <div class="drop-down-center">
+                    <div class="drop-down-center-block1">
+                        <h3>IOS系统下载</h3>
+                    </div>
+                    <div class="drop-down-center-block2">
+                        <div class="ddcb2-top">
+                            <div class="ddcb2-top-img">
+                                <img src="./images/pos.png" alt="">
+                            </div>
+                            <div class="ddcb2-top-font">
+                                <h3>收银机版本(V1.12)</h3>
+                                <p>更新日期 2018-01-10</p>
+                            </div>
+                            <div style="clear: both;margin-bottom: 19px"></div>
+                            <p>匹配系统：安卓系统</p>
+                            <p>适应于：平板，安卓手机</p>
+                            <p style="margin-bottom: 17px">更新内容：优化界面结账，收银按钮，修复无法跳转商城BUG</p>
+                            <a href="">详细信息>></a>
+                        </div>
+                        <div class="ddcb2-top">
+                            <button>下载系统</button>
+                        </div>
+                    </div>
+                    <div class="drop-down-center-block2" style="border-top: none;height: 349px">
+                        <div class="ddcb2-top">
+                            <div class="ddcb2-top-img">
+                                <img src="./images/pc.png" alt="">
+                            </div>
+                            <div class="ddcb2-top-font">
+                                <h3>PC端版本(V1.12)</h3>
+                                <p>更新日期 2018-01-10</p>
+                            </div>
+                            <div style="clear: both;margin-bottom: 19px"></div>
+                            <p>匹配系统：安卓系统</p>
+                            <p>适应于：平板，安卓手机</p>
+                            <p style="margin-bottom: 17px">更新内容：优化界面结账，收银按钮，修复无法跳转商城BUG</p>
+                            <a href="">详细信息>></a>
+                            <h2>POS机系统下载</h2>
+                        </div>
+                        <div class="ddcb2-top">
+                            <button>下载系统</button>
+                        </div>
+
+                    </div>
+                    <div class="drop-down-center-block2" style="border-top: none">
+                        <div class="ddcb2-top">
+                            <div class="ddcb2-top-img">
+                                <img src="./images/android.png" alt="">
+                            </div>
+                            <div class="ddcb2-top-font">
+                                <h3>手机版本(V1.12)</h3>
+                                <p>更新日期 2018-01-10</p>
+                            </div>
+                            <div style="clear: both;margin-bottom: 19px"></div>
+                            <p>匹配系统：安卓系统</p>
+                            <p>适应于：平板，安卓手机</p>
+                            <p style="margin-bottom: 17px">更新内容：优化界面结账，收银按钮，修复无法跳转商城BUG</p>
+                            <a href="">详细信息>></a>
+                        </div>
+                        <div class="ddcb2-top">
+                            <button>下载系统</button>
+                        </div>
+
+                    </div>
+                    <div class="drop-down-center-block2" style="border-top: none">
+                        <div class="ddcb2-top">
+                            <div class="ddcb2-top-img">
+                                <img src="./images/ios.png" alt="">
+                            </div>
+                            <div class="ddcb2-top-font">
+                                <h3>平板版本(V1.12)</h3>
+                                <p>更新日期 2018-01-10</p>
+                            </div>
+                            <div style="clear: both;margin-bottom: 19px"></div>
+                            <p>匹配系统：安卓系统</p>
+                            <p>适应于：平板，安卓手机</p>
+                            <p style="margin-bottom: 17px">更新内容：优化界面结账，收银按钮，修复无法跳转商城BUG</p>
+                            <a href="">详细信息>></a>
+                        </div>
+                        <div class="ddcb2-top">
+                            <button>下载系统</button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <div class="bottom">
+        <div class="bottom-bar">
+            <div class="download">
+                <h2>软件下载</h2>
+                <p>零售收银系统</p>
+                <p>小灵兽APP</p>
+            </div>
+            <div class="download">
+                <h2>关于我们</h2>
+                <p>直接送</p>
+
+            </div>
+            <div class="download">
+                <h2>咨询热线</h2>
+                <p>400-996-9690</p>
+                <p>周一至周五</p>
+
+            </div>
+            <div class="download" style="margin-right: 0">
+                <div class="public">
+
+                </div>
+                <p style="opacity: 1;margin-top:10px">小灵兽公众号</p>
+            </div>
+        </div>
+
+
+        <div class="address">
+            <p>福建省厦门市思明区软件园二期望海路55号A栋802</p>
+        </div>
+    </div>
+</body>
+<script>
+        $('.login-cancel').click(function(){
+            $('.login-mask').css('display','none');
+        })
+        $('.top').click(function(){
+        $("html").animate({
+                    scrollTop: 0
+                }, 800);
+      })
+    </script>
+</html>
