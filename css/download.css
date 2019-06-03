@@ -290,9 +290,9 @@ body{
 .bar{
     height: 400px;
     position: fixed;
-    right: 191px;
+    right: 50px;
     z-index: 100;
-    top: 65%;
+    bottom: 0;
     
 }
 .bar ul{
